@@ -1,4 +1,14 @@
 {
-    "extends": "@react-native-community",
-    "rules": {"quotes": [2, "double",{"avoidEscape": true}]}
+  "extends": "@react-native-community",
+  "rules": {
+    "quotes": [2, "double", { "avoidEscape": true }],
+    //"semi": "off",
+    //"@typescript-eslint/semi": "off",
+    "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "off"
+        }
+    ],
+  }
 }
