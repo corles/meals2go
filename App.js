@@ -10,6 +10,7 @@ import {
   useFonts as useOswald,
   Oswald_400Regular,
 } from "@expo-google-fonts/oswald";
+
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 
 import { theme } from "./src/infrastructure/theme";
@@ -18,12 +19,12 @@ import { Navigation } from "./src/infrastructure/navigation";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCs9WAgVbe5Lk_DA8noPCw-3gnVZBn89k8",
-  authDomain: "meals-to-go-1d1a8.firebaseapp.com",
-  projectId: "meals-to-go-1d1a8",
-  storageBucket: "meals-to-go-1d1a8.appspot.com",
-  messagingSenderId: "423430330072",
-  appId: "1:423430330072:web:c355343c34b94b815aa9ad"
+  apiKey: "AIzaSyBvRyS3ep5o-KECdUelXGYnfpcAwUHaRbs",
+  authDomain: "ih20-installer.firebaseapp.com",
+  projectId: "ih20-installer",
+  storageBucket: "ih20-installer.appspot.com",
+  messagingSenderId: "715049496369",
+  appId: "1:715049496369:web:6a055bd96e1c3bad1b0a10"
 };
 
 if (!firebase.apps.length) {
@@ -39,7 +40,7 @@ export default function App() {
     Lato_400Regular,
   });
 
-  if (!oswaldLoaded || !latoLoaded) {
+     if (!oswaldLoaded || !latoLoaded) {
     return null;
   }
 

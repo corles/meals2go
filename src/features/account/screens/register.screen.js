@@ -23,7 +23,7 @@ export const RegisterScreen = ({ navigation }) => {
   return (
     <AccountBackground>
       <AccountCover />
-      <Title>Meals To Go</Title>
+      <Title>iH20 Installer</Title>
       <AccountContainer>
         <AuthInput
           label="E-mail"
